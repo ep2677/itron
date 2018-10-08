@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root {
+  border: 1px solid black;
+  width: 40vw;
+  margin: 0 auto;
+}
+#mtrInfo {
+  width: 100%;
+}
+/*meter icons*/
+#envelope {
+  width: 9%;
+}
+/*meter message */
+#meterMessage {
+  width: 96%;
+  margin-left: 7px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 2px;
+  outline: none;
+  overflow: scroll;
+}
+#messageSave {
+  width: 5%;
+  position: r;
+  bottom: 0;
+}
+#x{
+  width: 5%;
+  float: right;
+  margin-right: 5px;
+}
+#readInput {
+  width: 20%;
+  font-size: 20px;
+  border: 1px solid black;
+  direction: rtl;
+  unicode-bidi:bidi-override;
+  outline: none;
+  float:right;
+  margin-right: 34px;
+
+}
+/*Controls*/
+
+#controls {
+  width: 100%;
+  display: flex;
+}
+/*Arrows*/
+.arrow {
+  width: 50px;
+}
+#direction {
+  margin: 0 auto;
+  display: inline;
+}
+.upArrow {
+  transform: rotate(270deg);
+  margin: 0 0 -20px 64px;
+  text-align: center;
+  
+}
+.leftRightArrows img {
+  margin: 2px 20px;
+}
+.leftRightArrows img:first-child {
+  transform: rotate(180deg);
+}
+.downArrow {
+  transform: rotate(90deg);
+  margin: -20px 0 0 64px;
+}
+#enterBtn {
+  color: black;
+  background-color: yellow;
+  border: none;
+  font-size: 24px;
+  display: inline-flex;
+  vertical-align: bottom;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+#enterBtn:focus, .enterBtn:active {
+  outline: none;
+}
